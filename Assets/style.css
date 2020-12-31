@@ -1,0 +1,119 @@
+
+body {
+    display: grid;
+    background-color:rgb(214, 214, 214);
+    padding-bottom: 15px;
+}
+header {
+    background-color: rgb(49, 84, 119);
+    border-bottom-style: solid;
+    border-color: rgb(200, 200, 200);
+    border-width: .5;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 50px;
+}
+
+.navbar-text {
+    padding: 0;
+}
+.navbar-brand {
+    margin-left: 5px;
+    align-items: center;
+}
+
+.nav-link {
+    color: rgb(214, 214, 214); 
+    font-family: 'Poppins', sans-serif;
+}
+
+.dropdown {
+    display: none;
+}
+.dropdown-toggle div {
+    width: 25px;
+    height: 2px;
+    background-color: rgb(214, 214, 214); 
+    margin: 5px;
+}
+.dropdown-toggle::after {
+    content: none;
+
+}
+figure {
+    margin-bottom: 0;
+}
+#profile {
+    width: 75%;
+    display: block;
+    margin-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: solid;
+    border-radius: 100%;
+    border-color: rgb(200, 200, 200); 
+    border-width: 1;
+}
+h1 {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    font-size: 100px;
+    color: black;
+}
+h2 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(43, 43, 43);
+    font-family: 'Poiret One', cursive;
+    padding-bottom: 20px;
+}
+
+p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    position: fixed;
+    display: flex; 
+    align-items: center;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(49, 84, 119);
+    border-top-style: solid;
+    border-color: rgb(200, 200, 200);
+    border-width: .5;
+}
+
+
+.media {
+    margin-left: auto;
+    margin-right: auto;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color:rgb(214, 214, 214);
+    border-width: .2px;
+}
+.social {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+     .dropdown {
+         display: flex;
+     }
+     .full {
+         display: none;
+     }
+}

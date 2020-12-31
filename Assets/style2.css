@@ -1,0 +1,15 @@
+h2 {
+    float: left;
+}
+#firstpic {
+    width: 100%;
+}
+#picnopad {
+    padding-left: 0;
+}
+.card {
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
