@@ -1,6 +1,9 @@
 h2 {
     float: left;
 }
+#contact {
+    margin-bottom: 0;
+}
 #firstpic {
     width: 100%;
 }

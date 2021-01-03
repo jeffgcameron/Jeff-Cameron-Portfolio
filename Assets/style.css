@@ -62,7 +62,8 @@ h1 {
     font-family: 'Poiret One', cursive;
     font-weight: bold;
     font-size: 100px;
-    color: black;
+    color: rgb(43, 43, 43);
+    margin-bottom: 0;
 }
 h2 {
     font-size: 50px;
@@ -74,9 +75,33 @@ h2 {
     padding-bottom: 20px;
 }
 
+h3 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgb(43, 43, 43);
+    font-family: 'Poiret One', cursive;
+}
+
+h4 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;
+}
+
 p {
     display: flex;
     flex-wrap: wrap;
+    font-family: 'Lora', serif;
+}
+
+ .info {
+    margin: 0;
+    margin-left: 10px;
+    color: rgb(43, 43, 43);
+    font-family: 'Lora', serif;
+    font-weight: normal;
 }
 
 footer {
