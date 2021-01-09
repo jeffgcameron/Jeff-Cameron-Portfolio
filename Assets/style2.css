@@ -1,9 +1,7 @@
 h2 {
     float: left;
 }
-#contact {
-    margin-bottom: 0;
-}
+
 #firstpic {
     width: 100%;
 }
@@ -13,7 +11,7 @@ h2 {
 }
 .card {
     display: block;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
