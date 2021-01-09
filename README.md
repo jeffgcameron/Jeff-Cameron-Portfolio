@@ -25,5 +25,10 @@
 To start, I designed my profile first focusing on the layout, the design, and then the content. I created a logo as well to personalize my site and make my work more recognizable. Once I had an idea of how I wanted my site to look and function I applied my html, css, and bootstrap knowledge. Below is a screenshot of my homepage, which can be accessed through clicking the logo in my nav bar. My footers has links to my social media as well. I used mostly bootstrap grids witht he exception of a media query to display a hamburger menu when the site became to small or cluttered for the full navbar text.
 
 ## Homepage Screenshot
-![Jeff Cameron Website Screenshot](./assets/images/screenshot.png)
+![Jeff Cameron Website Screenshot](./Assets/images/screenshot.png)
+
+### Website Link
+
+https://jeffgcameron.github.io/Portfolio/
+
 
