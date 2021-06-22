@@ -27,8 +27,5 @@ To start, I designed my profile first focusing on the layout, the design, and th
 ## Homepage Screenshot
 ![Jeff Cameron Website Screenshot](./Assets/images/screenshot.png)
 
-### Website Link
-
+## Website Link
 https://jeffgcameron.github.io/Portfolio/
-
-
