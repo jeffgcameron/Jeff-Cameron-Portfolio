@@ -9,12 +9,13 @@ h2 {
     padding: 0;
     border-radius: 6;
 }
+
 .card {
     display: block;
     margin-bottom: 25px;
     align-items: center;
     border-radius: 5px;
-    background-color: rgb(49, 84, 119);
+    background-color:   rgba(105, 124, 160, 0.9);
 }
 
 .card-title {
@@ -28,12 +29,17 @@ h2 {
     border-radius: 5px;
     border-style: solid;
     border-width: 10px;
-    border-color: rgb(49, 84, 119);
+    border-color: rgba(105, 124, 160, 0.9);
     padding: 0;
 }
 
 .btn {
-    color: rgb(49, 84, 119);
+    color:  rgba(105, 124, 160);
     background-color: rgb(214, 214, 214);
     border-style: none;
+}
+
+.btn:hover {
+background-color: rgb(43, 43, 43);
+color: rgb(214, 214, 214);
 }

@@ -1,16 +1,78 @@
-
 body {
+    position: relative;
     display: grid;
-    background-color:rgb(214, 214, 214);
+    /* background-color:rgb(214, 214, 214); */
+    /* background-image: url("./images/Mountain-Background.jpg"); */
+    /* overflow: hidden; */
+    background-repeat: no-repeat;
+    background-attachment: fixed
 }
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    /* background-image: url("./images/Mountain-Background.jpg"); */
+    opacity: .6;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.index-body::before {
+    background-image: url("./images/Mountain-Background.jpg");
+    background-attachment: fixed;
+}
+
+.contact-body::before {
+    background-image: url("./images/riverbackground.jpg");
+    background-attachment: fixed;
+}
+
+.about-body {
+    background-image: url("./images/deserty\ opacity.png");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.port-body {
+    background-image: url("./images/oceanopacity.png");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 header {
-    background-color: rgb(49, 84, 119);
+    position: relative;
+    /* background-color: rgb(49, 84, 119); */
     border-bottom-style: solid;
     border-color: rgb(200, 200, 200);
     border-width: .5;
     height: 50px;
 }
+
+.index-header {
+    background-color: rgb(49, 84, 119, 0.9);
+}
+
+.contact-header {
+    background-color: rgba(87, 45, 45, 0.9)
+}
+
+.port-header {
+    
+    background-color: rgba(105, 124, 160, 0.9)
+}
+
+.about-header {
+    background-color: rgba(100, 63, 46, 0.9);
+}
+
 nav {
+    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -20,6 +82,7 @@ nav {
 .navbar-text {
     padding: 0;
 }
+
 .navbar-brand {
     margin-left: 5px;
     align-items: center;
@@ -28,6 +91,10 @@ nav {
 .nav-link {
     color: rgb(214, 214, 214); 
     font-family: 'Poppins', sans-serif;
+}
+
+.nav-link:hover {
+    color: rgb(43, 43, 43);
 }
 
 .dropdown {
@@ -61,9 +128,14 @@ figure {
 }
 
 #firstpic {
-    border-radius: 5px;
+    border-radius: 10px;
+    border-color: rgb(200, 200, 200); 
+    border-width: 1;
+    border-style: solid;
 }
+
 h1 {
+    position: relative;
     text-align: center;
     font-family: 'Poiret One', cursive;
     font-weight: bold;
@@ -71,7 +143,9 @@ h1 {
     color: rgb(43, 43, 43);
     margin-bottom: 0;
 }
+
 h2 {
+    position: relative;
     font-size: 50px;
     font-weight: bold;
     text-align: center;
@@ -82,6 +156,7 @@ h2 {
 }
 
 h3 {
+    position: relative;
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 20px;
@@ -97,9 +172,14 @@ h4 {
 }
 
 p {
+    color: rgb(226, 226, 226);
     display: flex;
     flex-wrap: wrap;
     font-family: 'Lora', serif;
+}
+
+.about-p {
+    color: rgb(32, 32, 32);
 }
 
 .info {
@@ -111,18 +191,30 @@ p {
 }
 
 footer {
+    position: relative;
     display: flex; 
     align-items: center;
     height: 50px;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgb(49, 84, 119);
+    /* background-color: rgb(49, 84, 119); */
     border-top-style: solid;
     border-color: rgb(200, 200, 200);
     border-width: .5;
 }
 
+.index-footer {
+    background-color: rgb(49, 84, 119, 0.9);
+}
+
+.about-footer {
+    background-color: rgba(100, 63, 46, 0.9);
+}
+
+.port-footer {
+    background-color:   rgba(105, 124, 160, 0.9);
+}
 
 .media {
     margin-left: auto;
@@ -132,11 +224,24 @@ footer {
     border-color:rgb(214, 214, 214);
     border-width: .2px;
 }
+
 .social {
     margin-left: 5px;
     margin-right: 5px;
+    color:rgb(214, 214, 214);
+    font-size: 25px;
+    vertical-align: middle;
 }
 
+.social:hover {
+    color: rgb(43, 43, 43);
+}
+
+.card{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 @media screen and (max-width: 768px) {
 
@@ -145,5 +250,21 @@ footer {
      }
      .full {
          display: none;
+     }
+     .about-p {
+         margin-top: 20px;
+     }
+
+     .dropdown-menu {
+         opacity: 75%;
+     }
+
+     .dropdown-item {
+        font-family: 'Lora', serif;
+     }
+
+     .dropdown-item:hover {
+         opacity: 100%;
+         font-weight: bolder;
      }
 }
